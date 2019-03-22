@@ -24,7 +24,7 @@ We used Hierarchical time series, top-down approach to make our prediction
 * We ran Seasonal ARIMA model in each cohort and then summed up each group to generate the prediction for the month. We ran this process for every metrics we wanted to predict.
 
 For Example <br />
-Metrics:- Visitor <br />
+Metric:- Count of customer per month <br />
 Error rate in Test data when there was no division = 8% <br />
 Error rate in Test data after summing up all the cohorts = 3% <br />
 
@@ -32,5 +32,5 @@ Error rate in Test data after summing up all the cohorts = 3% <br />
 
 * I have uploaded the code for the model when there was no segmenting done. I have mentioned all the process required to do a forecast through ARIMA. For doing the forecasting in each cohort the codes would be same
 
-* All the cleaning and segmentation of the data is done in Redshift. We have an active customer base of 50 Million customer and require multiple tables to extract and transform the data as per our requirement, whixh is a huge task by its own.
+* All the cleaning and segmentation of the data is done in Redshift. We have an active customer base of 50 Million customer and require multiple tables to extract and transform the data as per our requirement, which is a huge task by its own.
 
