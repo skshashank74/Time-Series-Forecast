@@ -30,7 +30,7 @@ Error rate in Test data after summing up all the cohorts = 3% <br />
 
 ### Note:-
 
-* I have uploaded the code for the model when there was no segmenting done. I have mentioned all the process required to do a forecast through ARIMA. For doing the forecasting in each cohort the codes would be same
+* I have uploaded the code for the model before the segmentation was done. I have mentioned all the process required to do a forecast through ARIMA. For doing the forecasting in each cohort the codes would be same.
 
 * All the cleaning and segmentation of the data is done in Redshift. We have an active customer base of 50 Million customer and require multiple tables to extract and transform the data as per our requirement, which is a huge task by its own.
 
