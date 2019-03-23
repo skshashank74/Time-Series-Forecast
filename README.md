@@ -2,7 +2,7 @@
 
 Problem Statement:-
 ----------------
-To estimate number of customer coming to a resort every month, along with predict the quantity of gaming or non gaming customer and estimate the revenue generated, number of room nights booked and card type of a customer.
+To estimate the number of customer coming to a resort every month, along with predict the quantity of gaming or non gaming customer and calculate the revenue generated, number of room nights booked and card type of a customer.
 
 ## Methodology ##
 We used Hierarchical time series, top-down approach to make our prediction
